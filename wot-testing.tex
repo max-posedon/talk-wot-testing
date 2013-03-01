@@ -1,0 +1,77 @@
+\documentclass{beamer}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{verbatim}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{On the way to World of Tanks release\\Nine circles of hell}
+\author{Maksim Melnikau (max\_posedon)}
+\institute{Linux Mobile hobbyist\\World of Tanks developer}
+\date{\today}
+
+\frame{\titlepage}
+
+\frame{
+    \frametitle{White-box testing}
+    \begin{itemize}
+    \item Manual testing by developer
+    \item Unit-tests
+    \item Continues Integration
+    \end{itemize}
+}
+
+\frame{
+    \frametitle{Gray-box testing}
+    \begin{itemize}
+    \item Trunk - testing features by QA
+    \item Stable - integration, regression testing by QA
+    \item Continuous Delivery
+    \end{itemize}
+}
+
+\frame{
+    \frametitle{Black-box testing}
+    \begin{itemize}
+    \item Super test - testing by alpha testers
+    \item Common test - testing by end users
+    \item Organization task
+    \end{itemize}
+}
+
+\frame{
+    \frametitle{Conclusion}
+    \begin{columns}
+
+    \begin{column}{0.5\textwidth}
+    \begin{itemize}
+    \item Unit-tests
+    \item Trunk
+    \item Stable
+    \item Super test
+    \item Common test
+    \end{itemize}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+    \begin{itemize}
+    \item Usability
+    \item Performance
+    \item Security
+    \item I18n and L10n
+    \end{itemize}
+    \end{column}
+
+    \end{columns}
+}
+
+\frame{
+    \frametitle{Questions and Answers}
+    \begin{itemize}
+    \item Maksim Melnikau (max\_posedon)
+    \item email: m\_melnikau@wargaming.net
+    \end{itemize}
+}
+
+\end{document}
